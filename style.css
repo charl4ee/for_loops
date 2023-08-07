@@ -1,0 +1,95 @@
+body{
+	text-align: center;
+	margin: auto;
+}
+
+code {
+	display: inline-block;
+	text-align: left;
+	margin-left: 1px;
+}
+
+/* Quiz container */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+.top {
+	//display: inline-block;
+}
+
+/* Question container */
+.question-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+	
+/* Drop container */
+.drop-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100px;;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  //margin-right: 10px;
+  margin-top: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Question heading */
+.question-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Drag boxes */
+.drag-box {
+  display: inline-block;
+  position: relative;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: move;
+
+}
+
+/* Drag box on hover */
+.drag-box:hover {
+  background-color: #ddd;
+}
+
+/* Correct answer */
+.correct {
+  background-color: lightgreen;
+}
+
+/* Incorrect answer */
+.incorrect {
+  background-color: #ff0000;
+}
+
+.invisible {
+	display: none;
+}
+
+
+
+/* Drop container when item is dragged over */
+.drop-container.drag-over {
+  background-color: orange;
+}
+
+
